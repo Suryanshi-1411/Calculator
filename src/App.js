@@ -137,7 +137,7 @@ const App = () => {
               onClick={
                 btn === "C"
                   ? resetClickHandler
-                  : btn === "+-"
+                  : btn === "Invert"
                   ? invertClickHandler
                   : btn === "%"
                   ? percentClickHandler
